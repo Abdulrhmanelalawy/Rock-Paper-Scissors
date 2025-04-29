@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Rock ✊ Paper ✋ Scissors ✌️</title>
+        <link rel="stylesheet" href="src/style.css">
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    </head>
+    <body class="bg-gray-100 min-h-screen flex flex-col justify-center items-center text-center sm:text-left">
+
+        <h1 class="text-4xl font-bold mb-8">Rock ✊ Paper ✋ Scissors ✌️</h1>
+        <h2 class="text-2xl font-semibold mb-4">اختر خيارك:</h2>
+        <div class="flex gap-6 m-8 btn-area  ">
+            <button id="rock" class="btn">Rock ✊</button>
+            <button id="paper" class="btn2" >Paper ✋</button>
+            <button id="scissors" class="btn1">Scissors ✌️</button>
+        </div>
+        <div id="result" class="text-3xl font-semibold text-gray-800"></div>
+
+        <div id="animationArea" class="mt-6 h-40 flex items-center justify-center"></div>
+
+
+        <script src="dist/main.js"></script>
+    </body>
+</html>
